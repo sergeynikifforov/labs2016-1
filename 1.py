@@ -1,3 +1,5 @@
-import math
-x=int(input())
-print(math.log((1/(math.e**(math.sin(x)+1)))/(1.25+x**(-15)),1+x**2))
+for i in range(1,int(input())):
+	if i%2==0:
+		print('even')
+	else:
+		print('odd')

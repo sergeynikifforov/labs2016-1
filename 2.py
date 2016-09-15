@@ -1,6 +1,9 @@
-import numpy as np
-import matplotlib.pyplot as plt
-x = np.arange(-10,10.01, 0.01)
-plt.plot(x,x**2-x-6)
-plt.grid(True)
-plt.show()
+for i in range(1,101):
+	if i%3==0 and i%5==0:
+		print('FizzBuzz')
+	elif i%3==0:
+		print('Fizz')
+	elif i%5==0:
+		print('Buzz')
+	else:
+		print(i)

@@ -1,7 +1,13 @@
-import numpy as np
-import matplotlib.pyplot as plt
-plt.xkcd()
-x = np.arange(-10,10.01, 0.01)
-plt.plot(x,eval(input()))
-plt.grid(True)
-plt.show()
+import turtle
+turtle.shape('turtle')
+for i in range(10):
+	for j in range(4):
+		turtle.left(90)
+		turtle.forward(90+i*20)
+	turtle.penup()
+	turtle.forward(10)
+	turtle.right(90)
+	turtle.forward(10)
+	turtle.left(90)
+	turtle.pendown()
+	
